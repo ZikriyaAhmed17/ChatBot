@@ -1,0 +1,270 @@
+data = {
+    "Plumbing Services": {
+        "Fixing Leaks and Clogs": {
+            "MinorFixes": "For small leaks, apply plumber's tape or pipe sealant to the affected area. For clogs, use a plunger or a drain snake to clear the blockage.",
+            "AverageRepairCost": "$100- $200",
+            "ReplacementTime": "5-10 years for faucets, longer for pipes with regular maintenance."
+        },
+        "Repairing or Replacing Faucets, Sinks, and Toilets": {
+            "MinorFixes": "Tighten loose parts, replace worn washers, or apply sealant around joints.",
+            "AverageRepairCost": "$150- $300",
+            "ReplacementTime": "10-15 years for faucets and sinks, 20-25 years for toilets."
+        },
+        "Water Heater Repair or Installation": {
+            "MinorFixes": "Check and replace the thermostat, or flush the tank to remove sediment buildup.",
+            "AverageRepairCost": "$500- $1,000",
+            "ReplacementTime": "10-15 years"
+        }
+    },
+    "Electrical Services": {
+        "Replacing or Installing Light Fixtures and Ceiling Fans": {
+            "MinorFixes": "Ensure power is off, replace light bulbs or tighten loose connections.",
+            "AverageRepairCost": "$75- $200",
+            "ReplacementTime": "10-15 years"
+        },
+        "Troubleshooting and Fixing Electrical Issues": {
+            "MinorFixes": "Reset circuit breakers, replace fuses, or tighten wire connections.",
+            "AverageRepairCost": "$150- $400",
+            "ReplacementTime": "Varies by issue, but regular maintenance extends longevity."
+        },
+        "Upgrading or Repairing Outlets and Switches": {
+            "MinorFixes": "Replace damaged outlets or switches, ensuring power is off during the process.",
+            "AverageRepairCost": "$100- $200",
+            "ReplacementTime": "10-15 years"
+        }
+    },
+    "HVAC Services": {
+        "Repairing or Servicing Heating and Cooling Systems": {
+            "MinorFixes": "Replace air filters, clean coils, and check for proper thermostat function.",
+            "AverageRepairCost": "$100- $500",
+            "ReplacementTime": "15-20 years"
+        },
+        "Installing New HVAC Units": {
+            "MinorFixes": "Typically requires professional installation.",
+            "AverageRepairCost": "$3,000- $7,000",
+            "ReplacementTime": "15-20 years"
+        },
+        "Cleaning and Maintaining Ducts": {
+            "MinorFixes": "Vacuum ducts and replace filters regularly.",
+            "AverageRepairCost": "$300- $500",
+            "ReplacementTime": "Ducts can last 20-25 years with proper maintenance."
+        }
+    }
+    "Plumbing Services": {
+        "Fixing Leaks and Clogs": {
+            "MinorFixes": "For small leaks, apply plumber's tape or pipe sealant to the affected area. For clogs, use a plunger or a drain snake to clear the blockage.",
+            "AverageRepairCost": "$100- $200",
+            "ReplacementTime": "5-10 years for faucets, longer for pipes with regular maintenance.",
+            "RepairMethod": "For leaks, shut off the water supply, clean the area, and apply plumber's tape. For clogs, use a plunger or a drain snake. Pour boiling water down the drain to prevent future clogs."
+        },
+        "Repairing or Replacing Faucets, Sinks, and Toilets": {
+            "MinorFixes": "Tighten loose parts, replace worn washers, or apply sealant around joints.",
+            "AverageRepairCost": "$150- $300",
+            "ReplacementTime": "10-15 years for faucets and sinks, 20-25 years for toilets.",
+            "RepairMethod": "Turn off the water supply, replace the worn washer or O-ring inside the faucet, and tighten connections for sinks. Check the flapper and fill valve for toilets."
+        },
+        "Water Heater Repair or Installation": {
+            "MinorFixes": "Check and replace the thermostat, or flush the tank to remove sediment buildup.",
+            "AverageRepairCost": "$500- $1,000",
+            "ReplacementTime": "10-15 years",
+            "RepairMethod": "Check thermostat settings, reset if necessary, and flush the tank annually. Replace heating elements if there's no hot water."
+        }
+    },
+    "Electrical Services": {
+        "Replacing or Installing Light Fixtures and Ceiling Fans": {
+            "MinorFixes": "Ensure power is off, replace light bulbs or tighten loose connections.",
+            "AverageRepairCost": "$75- $200",
+            "ReplacementTime": "10-15 years",
+            "RepairMethod": "Turn off power at the circuit breaker, remove the old fixture, connect wires of the new fixture, and secure it."
+        },
+        "Troubleshooting and Fixing Electrical Issues": {
+            "MinorFixes": "Reset circuit breakers, replace fuses, or tighten wire connections.",
+            "AverageRepairCost": "$150- $400",
+            "ReplacementTime": "Varies by issue, but regular maintenance extends longevity.",
+            "RepairMethod": "Identify problem area, reset circuit breakers or replace fuses, check and repair connections, ensuring power is off."
+        },
+        "Upgrading or Repairing Outlets and Switches": {
+            "MinorFixes": "Replace damaged outlets or switches, ensuring power is off during the process.",
+            "AverageRepairCost": "$100- $200",
+            "ReplacementTime": "10-15 years",
+            "RepairMethod": "Turn off power, remove cover plate, disconnect wires, connect new outlet or switch, and secure it."
+        }
+    },
+    "HVAC Services": {
+        "Repairing or Servicing Heating and Cooling Systems": {
+            "MinorFixes": "Replace air filters, clean coils, and check for proper thermostat function.",
+            "AverageRepairCost": "$100- $500",
+            "ReplacementTime": "15-20 years",
+            "RepairMethod": "Replace air filters, clean coils, check thermostat settings and batteries, inspect and seal ductwork."
+        },
+        "Installing New HVAC Units": {
+            "MinorFixes": "Typically requires professional installation.",
+            "AverageRepairCost": "$3,000- $7,000",
+            "ReplacementTime": "15-20 years",
+            "RepairMethod": "Ensure unit size is correct, clear installation area, connect to ductwork and electrical systems, follow manufacturer instructions."
+        },
+        "Cleaning and Maintaining Ducts": {
+            "MinorFixes": "Vacuum ducts and replace filters regularly.",
+            "AverageRepairCost": "$300- $500",
+            "ReplacementTime": "Ducts can last 20-25 years with proper maintenance.",
+            "RepairMethod": "Vacuum inside ducts, use a duct-cleaning machine if needed, seal leaks, and consider professional cleaning every few years."
+        }
+    },
+    "Carpentry Services": {
+        "Repairing or Replacing Doors and Windows": {
+            "MinorFixes": "Rehang doors, replace weather stripping, and lubricate hinges.",
+            "AverageRepairCost": "$100- $300",
+            "ReplacementTime": "15-20 years",
+            "RepairMethod": "Tighten hinge screws, apply lubricant, replace weather stripping, and seal gaps around new installations."
+        },
+        "Building or Fixing Cabinetry and Shelving": {
+            "MinorFixes": "Tighten loose screws, replace hardware, or apply wood filler to cracks.",
+            "AverageRepairCost": "$200- $1,000",
+            "ReplacementTime": "20-30 years",
+            "RepairMethod": "Tighten screws, replace hardware, use wood filler for cracks, and add support brackets if needed."
+        },
+        "Structural Repairs and Modifications": {
+            "MinorFixes": "Reinforce joints with metal brackets and check for termite damage.",
+            "AverageRepairCost": "$500- $5,000",
+            "ReplacementTime": "Varies greatly depending on the structure.",
+            "RepairMethod": "Reinforce joints with metal brackets, replace damaged wood, and treat for termites. Consult a structural engineer for major modifications."
+        }
+    },
+    "Painting and Drywall Services": {
+        "Interior and Exterior Painting": {
+            "MinorFixes": "Touch up small areas with matching paint, sand rough spots before painting.",
+            "AverageRepairCost": "$200- $1,000",
+            "ReplacementTime": "5-10 years",
+            "RepairMethod": "Clean and sand surfaces, apply primer, use high-quality paint in thin coats, and protect areas with painter’s tape."
+        },
+        "Repairing or Replacing Damaged Drywall": {
+            "MinorFixes": "Patch holes with drywall compound and sand smooth before painting.",
+            "AverageRepairCost": "$200- $500",
+            "ReplacementTime": "15-20 years",
+            "RepairMethod": "Use patch kits for small holes, cut drywall to fit large holes, secure with screws, apply joint compound, sand, and paint."
+        },
+        "Wallpaper Removal and Installation": {
+            "MinorFixes": "Use a steamer or wallpaper remover solution for easy removal.",
+            "AverageRepairCost": "$300- $700",
+            "ReplacementTime": "10-15 years",
+            "RepairMethod": "Use a steamer or remover solution to soften adhesive, peel wallpaper, clean wall, apply new wallpaper with adhesive."
+        }
+    },
+    "Roofing Services": {
+        "Repairing Leaks and Damaged Shingles": {
+            "MinorFixes": "Replace damaged shingles and apply roofing sealant to leaks.",
+            "AverageRepairCost": "$300- $1,000",
+            "ReplacementTime": "20-25 years for shingles",
+            "RepairMethod": "Remove damaged shingles, apply roofing cement, insert new shingle, secure with nails, and apply additional cement."
+        },
+        "Full Roof Replacement": {
+            "MinorFixes": "Not typically DIY, professional services recommended.",
+            "AverageRepairCost": "$5,000- $10,000",
+            "ReplacementTime": "20-25 years",
+            "RepairMethod": "Remove old roofing material, inspect decking, install underlayment and new shingles, ensure proper ventilation and flashing."
+        },
+        "Gutter Installation and Repair": {
+            "MinorFixes": "Clean out debris, reseal joints, and replace damaged sections.",
+            "AverageRepairCost": "$150- $500",
+            "ReplacementTime": "20-25 years",
+            "RepairMethod": "Clean gutters, apply sealant to leaks, tighten or replace hangers, measure and cut gutters for new installations."
+        }
+    },
+    "Flooring Services": {
+        "Installing or Repairing Hardwood, Laminate, Tile, or Carpet Flooring": {
+            "MinorFixes": "Replace individual damaged tiles or planks, use wood filler for minor scratches.",
+            "AverageRepairCost": "$500- $2,000",
+            "ReplacementTime": "20-25 years",
+            "RepairMethod": "Replace damaged tiles or planks, use adhesive for new tiles, and patch carpet as needed. Ensure subfloor is clean and level."
+        },
+        "Refinishing Hardwood Floors": {
+            "MinorFixes": "Sand and apply a new coat of finish.",
+            "AverageRepairCost": "$1,000- $2,500",
+            "ReplacementTime": "10-15 years",
+            "RepairMethod": "Sand floor, clean dust, apply finish in thin coats, allow drying between coats."
+        },
+        "Fixing Floor Squeaks and Damage": {
+            "MinorFixes": "Apply talcum powder to joints or add screws to loose boards.",
+            "AverageRepairCost": "$100- $500",
+            "ReplacementTime": "N/A for minor fixes, depends on flooring material for replacement.",
+            "RepairMethod": "Apply talcum powder to joints, drive screws into joists, and repair minor damage with wood filler or replacement boards."
+        }
+    },
+    "Masonry Services": {
+        "Repairing or Installing Brickwork, Stone, and Concrete": {
+            "MinorFixes": "Fill small cracks with mortar or concrete repair mix.",
+            "AverageRepairCost": "$300- $1,000",
+            "ReplacementTime": "50+ years for well-maintained masonry.",
+            "RepairMethod": "Clean area, apply mortar or concrete repair mix, use a trowel to smooth, and ensure proper curing time."
+        },
+        "Repointing Brickwork": {
+            "MinorFixes": "Remove and replace old mortar with new.",
+            "AverageRepairCost": "$500- $1,500",
+            "ReplacementTime": "50+ years",
+            "RepairMethod": "Remove damaged mortar, clean joints, apply new mortar, and use a pointing tool to finish."
+        },
+        "Building or Repairing Retaining Walls": {
+            "MinorFixes": "Check for loose stones or bricks and refill with mortar.",
+            "AverageRepairCost": "$1,000- $3,000",
+            "ReplacementTime": "20-30 years",
+            "RepairMethod": "Ensure proper drainage, repair or replace loose stones/blocks, and reinforce with additional mortar or supports."
+        }
+    },
+    "Window and Door Services": {
+        "Repairing or Replacing Windows and Doors": {
+            "MinorFixes": "Lubricate hinges, adjust alignment, and replace weather stripping.",
+            "AverageRepairCost": "$150- $500",
+            "ReplacementTime": "15-20 years",
+            "RepairMethod": "Lubricate hinges, adjust alignment, replace weather stripping, and check for proper sealing around frames."
+        },
+        "Installing Window Treatments": {
+            "MinorFixes": "Adjust brackets and hardware for proper alignment.",
+            "AverageRepairCost": "$100- $300",
+            "ReplacementTime": "5-10 years",
+            "RepairMethod": "Install brackets and hardware, hang treatments, and adjust for proper fit and function."
+        }
+    },
+    "Landscaping Services": {
+        "Designing and Installing Garden Beds": {
+            "MinorFixes": "Weed and mulch regularly to maintain appearance.",
+            "AverageRepairCost": "$300- $1,000",
+            "ReplacementTime": "Varies by plant species.",
+            "RepairMethod": "Prepare soil, plant desired species, add mulch, and ensure proper watering and maintenance."
+        },
+        "Installing Irrigation Systems": {
+            "MinorFixes": "Clean filters and check for leaks.",
+            "AverageRepairCost": "$500- $2,000",
+            "ReplacementTime": "10-15 years",
+            "RepairMethod": "Inspect and clean filters, check for leaks, and adjust system as needed for efficient watering."
+        },
+        "Maintaining Lawns and Trees": {
+            "MinorFixes": "Regularly trim trees, mow lawns, and apply fertilizers.",
+            "AverageRepairCost": "$200- $800",
+            "ReplacementTime": "N/A for maintenance, depends on plant health for replacement.",
+            "RepairMethod": "Mow regularly, trim trees, and apply fertilizers and pest control as needed."
+        }
+    },
+    "General Handyman Services": {
+        "Assembling Furniture and Fixtures": {
+            "MinorFixes": "Tighten screws and bolts.",
+            "AverageRepairCost": "$50- $200",
+            "ReplacementTime": "N/A for minor fixes, depends on item for replacement.",
+            "RepairMethod": "Assemble parts according to instructions, tighten screws and bolts, and ensure stability."
+        },
+        "Mounting Shelves and Artwork": {
+            "MinorFixes": "Ensure proper placement and secure mounting.",
+            "AverageRepairCost": "$75- $200",
+            "ReplacementTime": "N/A for minor fixes, depends on item for replacement.",
+            "RepairMethod": "Measure and mark placement, use appropriate anchors, and secure shelves or artwork with screws."
+        },
+        "General Repairs and Odd Jobs": {
+            "MinorFixes": "Perform small repairs as needed, such as patching holes or fixing loose fixtures.",
+            "AverageRepairCost": "$100- $300",
+            "ReplacementTime": "Varies by job.",
+            "RepairMethod": "Assess the problem, gather necessary tools and materials, and perform the repair or installation as needed."
+        }
+    }
+}
+
+
+

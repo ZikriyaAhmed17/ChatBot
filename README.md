@@ -1,0 +1,1 @@
+python app.py  #To run the flask server
